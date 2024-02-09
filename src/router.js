@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomePage from '@/views/HomePage.vue'
 import CardDetails from './views/CardDetails.vue'
 import LoginPage from './views/LoginPage.vue'
-import SettingPage from './views/SettingsPage.vue'
+import SettingsPage from './views/SettingsPage.vue'
 
 const routes = [
   { path: '/', name: 'Home', component: HomePage },
